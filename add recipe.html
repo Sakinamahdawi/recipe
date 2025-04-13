@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav> 
+        <ul>    
+       <a href="index.html" ><li>Home</li></a>
+       <a href="add recipe.html"><li>Add Recipe</li></a>
+       <a href="recipe list.html"><li>Recipe List</li></a>
+     </ul>
+    </nav> <br>
+    <h1>Add Your Recipe</h1>
+    <form action="index.html"><br>
+        <label for="Recipe Name">Recipe Name:</label>
+        <br>
+        <input type="text" id="Recipe Name" name="Recipe Name"   placeholder="Enter Recipe Name"><br><br>
+        <label for="Massage">Ingredent:</label>   
+        <br>
+         <textarea name="Message" rows="8" cols="15"  placeholder="List Ingredent Here"></textarea><br><br>
+         <label for="Massage">Instructions</label>
+         <br>
+         <textarea name="Massage" rows="8" cols="15"  placeholder="Inter Instructions Here"></textarea><br><br>
+         <label for="Image">Image URL:</label>
+         <br>
+         <input type="text" id="Image" name="Image" placeholder="Paste the Link to an Image"><br><br>
+         <label for="Categories">Recipe Catagories:</label>
+         <select id="Categories" name="Categories">
+            <option value="Dessert">Dessert</option>
+            <option value="Dessert">Foods</option>
+            <option value="Dessert">Shakes</option>
+            <option value="Dessert">Quick food</option>
+         </select>
+         <br><br>
+         <input type="submit" value="submit">
+         <br>
+    </form>
+</body>
+</html>
